@@ -49,7 +49,7 @@ static NSString * const RJTextViewAutoFitKey   = @"rjTextViewAutoFitKey";
 @end
 
 @implementation UIButton (XIBFont)
-#pragma mark - -- setJqNormal
+#pragma mark - -- setRjAutoFit
 -(void)setRjAutoFit:(BOOL)rjAutoFit
 {
     if (rjAutoFit) {
@@ -66,7 +66,7 @@ static NSString * const RJTextViewAutoFitKey   = @"rjTextViewAutoFitKey";
 
 @implementation UITextField (XIBFont)
 @dynamic rjAutoFit;
-#pragma mark - -- setJqNormal
+#pragma mark - -- setRjAutoFit
 -(void)setRjAutoFit:(BOOL)rjAutoFit
 {
     if (rjAutoFit) {
@@ -83,7 +83,7 @@ static NSString * const RJTextViewAutoFitKey   = @"rjTextViewAutoFitKey";
 
 @implementation UILabel (XIBFont)
 
-#pragma mark - -- setJqNormal
+#pragma mark - -- setRjAutoFit
 -(void)setRjAutoFit:(BOOL)rjAutoFit
 {
     if (rjAutoFit) {
@@ -99,7 +99,7 @@ static NSString * const RJTextViewAutoFitKey   = @"rjTextViewAutoFitKey";
 @end
 
 @implementation UITextView (XIBFont)
-#pragma mark - -- setJqNormal
+#pragma mark - -- setRjAutoFit
 -(void)setRjAutoFit:(BOOL)rjAutoFit
 {
     if (rjAutoFit) {
